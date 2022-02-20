@@ -1,0 +1,15 @@
+.hero-section, .hero {
+    height: 100vh;
+}
+
+.hero-section {
+    background: center/cover no-repeat url('./images/bg-img.jpg');
+}
+
+.hero {
+    background-color: #00000077;
+}
+
+.project {
+
+}
