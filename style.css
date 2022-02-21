@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: #f4f4f4;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .hero-section, .hero {
     height: 100vh;
 }
@@ -11,5 +22,29 @@
 }
 
 .project {
+    background: #fff;
+    box-shadow: 0.2rem 0.3rem #ccc;
+}
 
+.skill {
+    font-size: 0.7rem;
+}
+
+.button-container {
+    margin: auto;
+}
+
+button {
+    margin-right: 1rem;
+}
+
+.social-icons {
+    font-size: 1.25rem;
+    margin-right: 0.3rem;
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
